@@ -1,7 +1,7 @@
 {
   "name": "才多 Duo 業務開發雲端環境",
   "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
-  "postCreateCommand": "npm install -g openclaw && openclaw gateway start --background && sleep 5 && export TELEGRAM_BOT_TOKEN='8403534701:AAERe1BmGcgRfQaEO6BPRZX9LuEmhZSFon' && openclaw telegram --start --background",
+  "postCreateCommand": "npm install -g openclaw && openclaw gateway start --background && sleep 5 && export TELEGRAM_BOT_TOKEN='8403534701:AAERe1BmGcgRfQaEO6BPRZX9LuEmhZSFonU' && openclaw telegram --start --background",
   "customizations": {
     "vscode": {
       "extensions": ["standard.vscode-standard"]
