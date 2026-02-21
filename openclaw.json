@@ -1,0 +1,12 @@
+{
+  "gateway": {
+    "mode": "local",
+    "auth": { "token": "sales-team-2026" }
+  },
+  "agents": {
+    "defaults": {
+      "models": { "primary": "openai-codex/gpt-5.3-codex" },
+      "systemPrompt": "你是一位專業的業務開發助理。你的任務是協助同仁從 104/1111 收集名單，清洗數據，並記錄在 Notion。請始終使用繁體中文回覆。"
+    }
+  }
+}
