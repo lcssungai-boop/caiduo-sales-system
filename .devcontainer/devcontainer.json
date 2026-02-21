@@ -6,5 +6,6 @@
     "vscode": {
       "extensions": ["standard.vscode-standard"]
     }
-  }
+  },
+  "onCreateCommand": "npm install -g openclaw"
 }
